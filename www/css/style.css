@@ -1,0 +1,20 @@
+/* Empty. Add your own CSS if you like */
+.split-view {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.split-view ion-nav-view {
+	display: flex;
+	height: 100%;
+}
+
+.split-view ion-nav-view[name="primary"] {
+	width: 300px;
+}
+
+.split-view ion-nav-view[name="secondary"] {
+	left: 300px;
+	width: calc(100% - 300px);
+}
